@@ -118,7 +118,7 @@ const SignIn = () => {
               onPress={() => router.push ("/(auth)/sign-up")}
             >
               <Text style={authStyles.linkText}>
-                Don&apos;t have an account? <Text>Sign Up</Text>
+                Don&apos;t have an account? <Text Text style={authStyles.link}>Sign Up</Text>
               </Text>
             </TouchableOpacity>
 
